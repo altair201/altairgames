@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALTAIRGAMES</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./pngwing.com (2).png">
+    <style>
+        *{
+          padding: 0;
+          margin: 0;
+        }
+        html,body{
+          height: 100%;
+          width: 100%;
+        }
+        body{
+          background-image: url(./548302.jpg);
+          background-size: cover;
+          background-attachment: fixed;
+          background-position: center;
+        }
+        .body2{
+          height: 100%;
+          
+        }
+        .logo{
+          height: 70px;
+          width: 70px;
+          filter: invert(95%) sepia(95%) saturate(0%) hue-rotate(122deg) brightness(105%) contrast(105%);
+        }
+        .logo2{
+          height: 30px;
+          width: 30px;
+        }
+        .edit-t{
+          color: red;
+          text-shadow: 1px 1px 2px black, 0 0 1em rgb(89, 0, 255), 0 0 0.2em rgb(72, 0, 255);
+          font: 2em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+        }
+        .menu_color{
+          color: aliceblue;
+        }
+        .hr{
+          height: 5px;
+          background-color: rgb(255, 0, 0);
+          
+        }
+        .fondo{
+          background-color: rgba(128, 128, 128, 0.521);
+        }
+        textarea{
+          height: 30px;    
+        }
+        .justificar{
+          text-align:justify;
+        }
+        .fon{
+          background-color: rgb(136, 255, 0);
+        }
+        .fon2{
+          background-color: rgb(132, 3, 252);
+          color: white;
+        }
+        .textc{
+          color: aliceblue;
+        }
+        .textc2{
+          color:black
+        }
+        body::-webkit-scrollbar {
+        width: 0;
+        }
+        .form-floating:not(.form-control:disabled)::before{
+        content: none;
+        }
+      </style>
+</head>
+<body>
+    <header class="container-fluid ">
+        <nav class="navbar row p-2 bg-dark">
+            <div class="d-flex align-items-center justify-content-between bg-dark row">
+                <div class="col-xl-4 text-center">
+                <img src="./pngwing.com (2).png" alt="" class="logo d-inline " >
+                </div>
+                <h2 class="text-center d-inline  edit-t col-xl-4">ALTAIRGAMES</h2> 
+                <h3 class="text-center d-inline  edit-t col-xl-4"><img src="./tel.png" class="logo2 d-inline " alt=""> 3156675846</h3>
+            </div>
+        </nav>
+    </header>
+    <nav class="navbar sticky-top navbar-expand-lg bg-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand"  href="./index.html"><i class="bi bi-house-door"></i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./servicio2.html">Servicio tecnico</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#contac">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <div class="container my-4">
+        <div class="row d-flex justify-content-center fondo py-3 text-center">
+            <h2 class="pb-3 col-lg-12">CATALOGO</h2>
+          <div class="d-flex justify-content-center col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 pb-3 ">
+            <div class="card bg-black textc" style="width: 18rem;">
+              <img class="card-img-top " src="./card 1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Dylight light</h5>
+                <div class="card-foot text-center mb-3">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Dylight-light">
+                    Comprar
+                  </button>
+                  <div class="modal fade" id="Dylight-light" tabindex="-1" aria-labelledby="comprar" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header textc2">
+                          <h5 class="modal-title" id="adoptar">juego seleccionado</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body textc2">
+                            Deseas comprar: Dylight light?
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 pb-3">
+            <div class="card bg-black textc" style="width: 18rem;">
+              <img class="card-img-top " src="./card 2.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">METRO: EXODUS</h5>
+                <div class="card-foot text-center mb-3">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#METRO:-EXODUS">
+                    Comprar
+                  </button>
+                  <div class="modal fade" id="METRO:-EXODUS" tabindex="-1" aria-labelledby="comprar" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header textc2">
+                          <h5 class="modal-title" id="adoptar">juego seleccionado</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body textc2">
+                            Deseas comprar: METRO: EXODUS?
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 pb-3">
+            <div class="card bg-black" style="width: 18rem;">
+              <img class="card-img-top" src="./card 3.jpg" alt="Card image cap">
+              <div class="card-body textc">
+                <h5 class="card-title">God of War: Ragnarök</h5>
+                <div class="card-foot text-center mb-3">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#God-of-War:-Ragnarök">
+                    Comprar
+                  </button>
+                  <div class="modal fade" id="God-of-War:-Ragnarök" tabindex="-1" aria-labelledby="comprar" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header textc2">
+                          <h5 class="modal-title" id="adoptar">juego seleccionado</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body textc2">
+                            Deseas comprar: God of War: Ragnarök?
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 pb-3 ">
+            <div class="card bg-black textc" style="width: 18rem;">
+              <img class="card-img-top " src="./card 4.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Ghostwire: Tokyo</h5>
+                <div class="card-foot text-center mb-3">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Ghostwire:-Tokyo">
+                    Comprar
+                  </button>
+                  <div class="modal fade" id="Ghostwire:-Tokyo" tabindex="-1" aria-labelledby="comprar" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header textc2">
+                          <h5 class="modal-title" id="adoptar">juego seleccionado</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body textc2">
+                            Deseas comprar: Ghostwire: Tokyo?
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 pb-3 ">
+            <div class="card bg-black textc" style="width: 18rem;">
+              <img class="card-img-top " src="./juegos/j5.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Elden Ring</h5>
+                <div class="card-foot text-center mb-3">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Elden-Ring">
+                    Comprar
+                  </button>
+                  <div class="modal fade" id="Elden-Ring" tabindex="-1" aria-labelledby="comprar" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header textc2">
+                          <h5 class="modal-title">juego seleccionado</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body textc2">
+                            Deseas comprar: Elden Ring?
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 pb-3 ">
+            <div class="card bg-black textc" style="width: 18rem;">
+              <img class="card-img-top " src="./juegos/j6.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Horizon Forbidden West</h5>
+                <div class="card-foot text-center mb-3">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orizon-Forbidden-West">
+                    Comprar
+                  </button>
+                  <div class="modal fade" id="orizon-Forbidden-West" tabindex="-1" aria-labelledby="comprar" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header textc2">
+                          <h5 class="modal-title">juego seleccionado</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body textc2">
+                            Deseas comprar: Horizon Forbidden West?
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12  pb-3">
+            <div class="card bg-black textc" style="width: 18rem;">
+              <img class="card-img-top " src="./juegos/j7.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">A Plague Tale: Requiem</h5>
+                <div class="card-foot text-center mb-3">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#A-Plague-Tale:-Requiem">
+                    Comprar
+                  </button>
+                  <div class="modal fade" id="A-Plague-Tale:-Requiem" tabindex="-1" aria-labelledby="comprar" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header textc2">
+                          <h5 class="modal-title">juego seleccionado</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body textc2">
+                            Deseas comprar: A Plague Tale: Requiem?
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 pb-3 ">
+            <div class="card bg-black textc" style="width: 18rem;">
+              <img class="card-img-top " src="./juegos/j8.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Bayonetta 3</h5>
+                <div class="card-foot text-center mb-3">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Bayonetta-3">
+                    Comprar
+                  </button>
+                  <div class="modal fade" id="Bayonetta-3" tabindex="-1" aria-labelledby="comprar" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header textc2">
+                          <h5 class="modal-title">juego seleccionado</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body textc2">
+                            Deseas comprar: Bayonetta 3?
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 pb-3">
+            <div class="card bg-black textc" style="width: 18rem;">
+              <img class="card-img-top " src="./juegos/j9.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Stray</h5>
+                <div class="card-foot text-center mb-3">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Stray">
+                    Comprar
+                  </button>
+                  <div class="modal fade" id="Stray" tabindex="-1" aria-labelledby="comprar" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header textc2">
+                          <h5 class="modal-title">juego seleccionado</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body textc2">
+                            Deseas comprar: Stray?
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 pb-3 ">
+            <div class="card bg-black textc" style="width: 18rem;">
+              <img class="card-img-top " src="./juegos/j10.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">The Last of Us Part II</h5>
+                <div class="card-foot text-center mb-3">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#The-Last-of-Us-Part-II">
+                    Comprar
+                  </button>
+                  <div class="modal fade" id="The-Last-of-Us-Part-II" tabindex="-1" aria-labelledby="comprar" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header textc2">
+                          <h5 class="modal-title">juego seleccionado</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body textc2">
+                            Deseas comprar: The Last of Us Part II?
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 pb-3">
+            <div class="card bg-black textc" style="width: 18rem;">
+              <img class="card-img-top " src="./juegos/j11.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Evil Dead The Game</h5>
+                <div class="card-foot text-center mb-3">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Evil-Dead-The-Game">
+                    Comprar
+                  </button>
+                  <div class="modal fade" id="Evil-Dead-The-Game" tabindex="-1" aria-labelledby="comprar" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header textc2">
+                          <h5 class="modal-title">juego seleccionado</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body textc2">
+                            Deseas comprar: Evil Dead The Game?
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12  pb-3">
+            <div class="card bg-black textc" style="width: 18rem;">
+              <img class="card-img-top " src="./juegos/j12.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Hogwarts Legacy</h5>
+                <div class="card-foot text-center mb-3">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Hogwarts-Legacy">
+                    Comprar
+                  </button>
+                  <div class="modal fade" id="Hogwarts-Legacy" tabindex="-1" aria-labelledby="comprar" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header textc2">
+                          <h5 class="modal-title">juego seleccionado</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body textc2">
+                            Deseas comprar: Hogwarts Legacy?
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 pb-3 ">
+            <div class="card bg-black textc" style="width: 18rem;">
+              <img class="card-img-top " src="./juegos/j13.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Dead Island 2</h5>
+                <div class="card-foot text-center mb-3">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Dead-Island-2">
+                    Comprar
+                  </button>
+                  <div class="modal fade" id="Dead-Island-2" tabindex="-1" aria-labelledby="comprar" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header textc2">
+                          <h5 class="modal-title">juego seleccionado</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body textc2">
+                            Deseas comprar: Dead Island 2?
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 pb-3">
+            <div class="card bg-black textc" style="width: 18rem;">
+              <img class="card-img-top " src="./juegos/j14.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Resident Evil Village</h5>
+                <div class="card-foot text-center mb-3">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Resident-Evil-Village">
+                    Comprar
+                  </button>
+                  <div class="modal fade" id="Resident-Evil-Village" tabindex="-1" aria-labelledby="comprar" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header textc2">
+                          <h5 class="modal-title">juego seleccionado</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body textc2">
+                            Deseas comprar: Resident Evil Village?
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 pb-3 ">
+            <div class="card bg-black textc" style="width: 18rem;">
+              <img class="card-img-top " src="./juegos/j15.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Halo Infinite</h5>
+                <div class="card-foot text-center mb-3">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Halo-Infinite">
+                    Comprar
+                  </button>
+                  <div class="modal fade" id="Halo-Infinite" tabindex="-1" aria-labelledby="comprar" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header textc2">
+                          <h5 class="modal-title">juego seleccionado</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body textc2">
+                            Deseas comprar: Halo Infinite?
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 pb-3">
+            <div class="card bg-black textc" style="width: 18rem;">
+              <img class="card-img-top " src="./juegos/j16.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">forza horizon 5</h5>
+                <div class="card-foot text-center mb-3">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#forza-horizon-5">
+                    Comprar
+                  </button>
+                  <div class="modal fade" id="forza-horizon-5" tabindex="-1" aria-labelledby="comprar" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header textc2">
+                          <h5 class="modal-title">juego seleccionado</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body textc2">
+                            Deseas comprar: forza horizon 5?
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12pb-3">
+            <div class="card bg-black textc" style="width: 18rem;">
+              <img class="card-img-top " src="./juegos/j17.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Mass Effect LE</h5>
+                <div class="card-foot text-center mb-3">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Mass-Effect-Legendary-Edition">
+                    Comprar
+                  </button>
+                  <div class="modal fade" id="Mass-Effect-Legendary-Edition" tabindex="-1" aria-labelledby="comprar" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header textc2">
+                          <h5 class="modal-title">juego seleccionado</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body textc2">
+                            Deseas comprar: Mass Effect Legendary Edition?
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 pb-3">
+            <div class="card bg-black textc" style="width: 18rem;">
+              <img class="card-img-top " src="./juegos/j18.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Cyberpunk 2077</h5>
+                <div class="card-foot text-center mb-3">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Cyberpunk-2077">
+                    Comprar
+                  </button>
+                  <div class="modal fade" id="Cyberpunk-2077" tabindex="-1" aria-labelledby="comprar" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header textc2">
+                          <h5 class="modal-title">juego seleccionado</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body textc2">
+                            Deseas comprar: Cyberpunk 2077?
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 pb-3">
+            <div class="card bg-black textc" style="width: 18rem;">
+              <img class="card-img-top " src="./juegos/j19.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Resident Evil 3</h5>
+                <div class="card-foot text-center mb-3">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Resident-Evil-3">
+                    Comprar
+                  </button>
+                  <div class="modal fade" id="Resident-Evil-3" tabindex="-1" aria-labelledby="comprar" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header textc2">
+                          <h5 class="modal-title">juego seleccionado</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body textc2">
+                            Deseas comprar: Resident Evil 3?
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 pb-3">
+            <div class="card bg-black textc" style="width: 18rem;">
+              <img class="card-img-top " src="./juegos/j20.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Spider-Man: Miles Morales</h5>
+                <div class="card-foot text-center mb-3">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Spider-Man:-Miles-Morales">
+                    Comprar
+                  </button>
+                  <div class="modal fade" id="Spider-Man:-Miles-Morales" tabindex="-1" aria-labelledby="comprar" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header textc2">
+                          <h5 class="modal-title" >juego seleccionado</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body textc2">
+                            Deseas comprar: Spider-Man: Miles Morales?
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <hr class="hr">
+      </div>
+      <div class="container fondo">
+          
+        <form>
+            <div class="row text-center">
+                <div class=" col-md-12  ">
+                <h3 class="text-white fw-bolder fs-1" id="contac">CONTACTANOS</h3>
+            </div>
+            <div class="col-12">
+                <div class="row d-flex justify-content-center">
+                    <div class=" col-md-5 col-sm-12 ">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">Nombre</span>
+                            <input type="text" class="form-control" placeholder="Nombre" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <div class=" col-md-5 col-sm-12">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">Apellido</span>
+                            <input type="text" class="form-control" placeholder="Apellido" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-12 ">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">Email</span>
+                            <input type="email" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">Telefono</span>
+                            <input type="phone" class="form-control" placeholder="Telefono" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+  
+                    <div class="mb-3 form-floating col-md-10 col-sm-12" >
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Mensaje</label>
+                      </div>
+  
+                      <div class="mb-3">
+                      <button type="submit" class="btn btn-primary">ENVIAR</button>
+                     </div>
+  
+                </div>
+        </div>
+        </form>
+    </div>
+    </div>
+    <footer>
+      <div class="text-center my-5 pb-5">
+      <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Developed By</button>
+      
+      <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body small ">
+          <p class="fs-3">Desarollado por: &copy Chrisayuron - Wilson Davian Pabon </p>
+        </div>
+      </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>
